@@ -12,73 +12,80 @@ div {
   text-align: center;
 }
 
-a {
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
   text-decoration: none;
-  padding: .4em .75em .3em;
-}
-
-.btn-primary {
-  background-color: #333;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.125rem;
-  border-radius: 8px;
-  border: 3px;
-}
-
-.btn-subtle {
-  background-color: #ccc;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.125rem;
-  border-radius: 8px;
 }
 
 .btn-small {
   font-size: .875rem;
-  border-radius: 8px;
-}
-
-.btn-ghost {
-  color: #000;
-  display: inline-block;
-  border-radius: 8px;
-  border: 3px solid #333;
-}
-
-.btn-warning {
-  background-color: #f33;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.125rem;
-  border-radius: 8px;
 }
 
 .btn-big {
   font-size: 1.5rem;
 }
 
-.btn-reg {
+.s, .w, .p {
+  display: inline-block;
+  border: 3px solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+}
+
+.g {
+  display: inline-block;
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.btn-ghost {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+}
+
+.btn:hover {
+  margin: 0;
+}
+
+.btn-primary {
   background-color: #333;
   color: #fff;
-  display: inline-block;
-  font-size: .875rem;
 }
 
-.btn: hover {
-border-radius: 8px;
-padding: .4em .75em .3em;
-background-color: #fff;
+.btn-subtle:hover {
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  background-color: #666;
 }
 
-.btn-ghost: hover {
-border-radius: 8px;
-padding: .4em .75em .3em;
-background-color: #666;
+.btn-ghost:hover {
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  background-color: #666;
 }
 
-.btn-warning: hover {
- background-color: #933;
- border-radius: 8px;
- padding: .4em .75em .3em;
+.btn-warning:hover {
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  background-color: #933;
+}
+
+.btn-primary:hover {
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  background-color: #000;
 }
